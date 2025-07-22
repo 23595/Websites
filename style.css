@@ -1,3 +1,29 @@
-body{
-    color:plum;
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero-image{
+    background-image: url(rainbow_yarn_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+}
+.hero-text{
+    color:blanchedalmond;
+    text-align: center;
+    position: absolute;
+    top: 230px;
+    width: 100%;
+    font-size: 4.5rem;
+}
+.two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+img{
+    width: 100%;
 }
