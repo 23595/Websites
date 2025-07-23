@@ -43,3 +43,15 @@ img{
     background-color: blueviolet;
     text-align: center;
 }
+.divider{
+    height: 75px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    padding-top: 30px;
+    margin-top: 40px;
+    background-image: url(rainbow_yarn_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
