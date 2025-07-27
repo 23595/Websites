@@ -19,25 +19,45 @@ img{
     width: 100%;
     font-size: 4.5rem;
 }
-.two-column{
+.txt-img-img{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 2fr;
     width: 80%;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 20px;
 }
-.three-column{
+.info{
+    background-color: blanchedalmond;
+    grid-column: span 2;
+    padding: 10px;
+    vertical-align: top;
+}
+.info p{
+    font-size: 1.25em;
+    margin: 10px;
+}
+.info h2{
+    font-size: 40px;
+    margin: 0px;
+}
+.one{
+    width: 60%;
+    margin-left: 80px;
+    vertical-align: bottom;
+}
+.two{
+    width: 80%;
+    margin-top: -140px;
+}
+.two-column{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 100px;
     width: 80%;
     margin: auto;
     margin-top: 40px;
-    margin-bottom: 50px;
-}
-.info{
-    font-size: 1.25em;
+    margin-bottom: 100px;
 }
 .card{
     background-color: blueviolet;
@@ -49,7 +69,7 @@ img{
     font-size: 35px;
     color: black;
     padding-top: 30px;
-    margin-top: 40px;
+    margin-top: 60px;
     background-image: url(rainbow_yarn_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
