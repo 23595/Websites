@@ -5,7 +5,7 @@ img{
     width: 100%;
 }
 .hero-image{
-    background-image: url(rainbow_yarn_bg.jpg);
+    background-image: url(yarn_placeholder.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -72,7 +72,7 @@ img{
     color: black;
     padding-top: 30px;
     margin-top: 60px;
-    background-image: url(rainbow_yarn_bg.jpg);
+    background-image: url(yarn_placeholder.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
