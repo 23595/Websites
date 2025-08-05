@@ -1,11 +1,14 @@
 *{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+body{
+    margin: 0px;
+}
 img{
     width: 100%;
 }
 .hero-image{
-    background-image: url(/crochet_pictures/purple_yarn_bg.jpg);
+    background-image: url(crochet_pictures/purple_yarn_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
