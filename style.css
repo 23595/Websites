@@ -3,6 +3,7 @@
 }
 body{
     margin: 0px;
+    background-color: #F6F8FF;
 }
 img{
     width: 100%;
@@ -32,7 +33,7 @@ img{
     margin-top: 20px;
 }
 .info{
-    background-color: white;
+    background-color: #F6F8FF;;
     grid-column: span 2;
     padding: 10px;
     vertical-align: top;
