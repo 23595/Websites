@@ -6,6 +6,7 @@ body{
 }
 img{
     width: 100%;
+    border: 3px solid black;
 }
 .hero-bg{
     background-color: #E3CEE8;
@@ -69,4 +70,31 @@ ul{
 .heading{
     width: 100px;
     margin: auto;
+}
+.twocolumn{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.top{
+    margin-top: 10%;
+    margin-bottom: 40%;
+}
+.two-column{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    width: 65%;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+.card{
+    background-color: #D0D8F4;
+    text-align: center;
+    border: 3px solid black;
 }

@@ -65,6 +65,8 @@ ul{
     width: 100px;
     margin: auto;
     list-style-type: circle;
+    margin-bottom: 75px;
+    margin-top: 25px;
 }
 .heading{
     width: 100px;
